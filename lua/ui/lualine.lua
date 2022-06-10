@@ -1,7 +1,7 @@
 local status, lualine = pcall(require, "lualine")
 if (not status) then return end
 
-local onedarkpro = require "lualine.themes.onedarkpro"
+local onedarkpro = require "lualine.onedarkpro"
 
 lualine.setup {
   options = {
