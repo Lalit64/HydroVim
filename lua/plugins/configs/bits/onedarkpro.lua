@@ -9,7 +9,8 @@ onedarkpro.setup({
     }
   }, -- Override default colors by specifying colors for 'onelight' or 'onedark' themes
   hlgroups = {
-    Float = { bg="#000000" } 
+    Pmenu = { bg="#FF0000", fg="#FF0000" },
+    PmenuSel = { bg="#FF0000", fg="#FF0000" }
   }, -- Override default highlight groups
   filetype_hlgroups = {}, -- Override default highlight groups for specific filetypes
   plugins = { -- Override which plugins highlight groups are loaded

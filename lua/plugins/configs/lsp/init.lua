@@ -14,10 +14,22 @@ vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
             underline = true,
             virtual_text = {
                 spacing = 3,
-                prefix = ''
+                prefix = ' '
             }
         })
 
+local lsp_installer = require("nvim-lsp-installer")
+lsp_installer.on_server_ready(function(server)
+  local capabilities = require("cmp_nvim_lsp").update_capabilities(vim.lsp.protocol.make_client_capabilities())
+  local opts = {capabilities = capabilities}
+  
+  server:setup(opts)
+
+end)
+
+
+
+require "plugins.configs.lsp.treesitter"
 require "plugins.configs.lsp.lspsaga"
 require "plugins.configs.lsp.lspkind"
 require "plugins.configs.lsp.aerial"

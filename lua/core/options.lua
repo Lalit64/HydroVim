@@ -45,6 +45,5 @@ vim.cmd "set whichwrap+=<,>,[,],h,l"
 vim.cmd [[set iskeyword+=-]]
 vim.cmd [[set formatoptions-=cro]]
 vim.cmd [[
-  set guicursor+=n:hor20-Cursor/lCursor
-  highlight Cursor guibg=#5f89f7
+  set guicursor+=n:hor20
 ]]

@@ -11,6 +11,7 @@ if status_ok then
             use 'stevearc/aerial.nvim'
             use 'nvim-treesitter/nvim-treesitter'
             use "jose-elias-alvarez/null-ls.nvim"
+            use 'MunifTanjim/prettier.nvim'
             -- Completion with nvim-cmp
             use 'hrsh7th/nvim-cmp'
             use 'hrsh7th/cmp-nvim-lsp'

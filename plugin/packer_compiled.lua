@@ -209,6 +209,11 @@ _G.packer_plugins = {
     path = "/Users/lalit/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
   },
+  ["prettier.nvim"] = {
+    loaded = true,
+    path = "/Users/lalit/.local/share/nvim/site/pack/packer/start/prettier.nvim",
+    url = "https://github.com/MunifTanjim/prettier.nvim"
+  },
   ["project.nvim"] = {
     loaded = true,
     path = "/Users/lalit/.local/share/nvim/site/pack/packer/start/project.nvim",
