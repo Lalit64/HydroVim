@@ -11,7 +11,7 @@ require "plugins.configs.nvim-tree"
 require "plugins.configs.alpha"
 -- UI Customization
 require "ui.dressing"
-require "ui.fine-cmdline"
+require "ui.wilder"
 require "ui.bufferline"
 require "ui.lualine"
 require "ui.notify"
