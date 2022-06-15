@@ -27,7 +27,7 @@ if status_ok then
             -- UI Customization
             use 'stevearc/dressing.nvim'
             use 'MunifTanjim/nui.nvim'
-            use 'VonHeikemen/fine-cmdline.nvim'
+            use 'gelguy/wilder.nvim'
             use 'nvim-lua/popup.nvim'
             use 'akinsho/bufferline.nvim' -- Bufferline
             use 'hoob3rt/lualine.nvim' -- Statusline
